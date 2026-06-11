@@ -13,10 +13,9 @@ public class Calculation {
 		a += 2.5;
 		a *= 3.0;
 		int b = (int)a;
-		b *= 10;
 		b += 10;
-		System.out.println(a);
-		System.out.println(b);
+		System.out.println("変数aの値は" + a + "です");
+		System.out.println("変数bの値は" + b + "です");
 	}
 
 }
