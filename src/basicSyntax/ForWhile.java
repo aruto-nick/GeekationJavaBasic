@@ -17,10 +17,10 @@ public class ForWhile {
 		
 		String [] progrs = {"Ruby", "Golang", "Java", "Python", "Typescript", "HTML", "Javascript"};
 		for (String progr : progrs) {
-			if(progr == "Java") {
+			if(progr.equals("Java") ) {
 				System.out.println("現在学習中の言語はJavaです。");
 				continue;
-			}else if (progr == "HTML") {
+			}else if (progr.equals("HTML")) {
 				System.out.println("HTMLはプログラミング言語ではありません。");
 				break;
 			}
